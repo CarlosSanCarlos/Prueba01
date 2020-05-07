@@ -1,12 +1,95 @@
-.verde{
-    background-color: green;
-    height: 200px;
-}
+/* Fuentes de letras
+  font-family: 'Righteous', cursive;
+  font-family: 'Kanit', sans-serif;
+*/
 
-.rojo{
-    background-color: red;
-    height: 200px;
-}
-.nav-image{
-    width: 10%;
-}
+html{
+    scroll-behavior: smooth;
+  }
+  
+  body{
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  h1{
+    font-family: 'Righteous', cursive;
+  }
+  h2{
+    font-family: 'Kanit', sans-serif;
+  }
+  
+  h3{
+    font-family: 'Righteous', cursive;
+    font-size: x-large;
+    text-align: center;
+  }
+  
+  .hero-section {
+    text-align: center;
+    background-image: url('../img/fondo.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #ffffff;
+    text-shadow: 0.100em 0.15em 0.100em #707070;
+    padding: 6.25rem 3.125rem;
+  }
+  
+  #sobre-mi{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 3%;
+  }
+  
+  #hr_margin{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 3%;
+    border-top: 3px solid;
+  }
+  
+  #cards{
+    width: 50%;
+    margin: 0 auto;
+  }
+  .card i{
+    color: indigo;
+  }
+  
+  #carousel{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5%;
+  }
+  
+  #contacto{
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: center;
+    padding-bottom: 5%;
+  }
+  
+  footer {
+    padding: 4.5rem;
+    text-align: center;
+  }
+  
+  #icons{
+    text-align: center;
+    margin-top: 3rem;
+  }
+  
+  #nombre{
+    text-align: right;
+    padding: center;
+  }
+  
+  .oscuro {
+    background: #000f08;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  a{
+    color: #ffffff;
+  }

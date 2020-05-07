@@ -2,62 +2,179 @@
 <html lang="es">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Portafolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Carlos Salinas</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/89ba8441ba.js" crossorigin="anonymous"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@1,200;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;1,700&family=Righteous&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
     <link rel="stylesheet" href="assets/css/style.css">
-    <script src="https://code.jquery.com/jquery-3.5.0.js" integrity="sha256-r/AaFHrszJtwpe+tHyNi/XCfMxYpbsRg2Uqn0x3s2zc=" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-
 </head>
 <body>
 
+    <!--Navbar responsive con dropdown-->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">CS</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <a class="navbar-brand" href="#inicio">CS</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <ul class="navbar-nav ml-auto text-left">
-            <li class="nav-item">
-              <a class="nav-link" href="#">Sobre mi</a>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#sobre-mi">Sobre mi<span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Experiencia</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#cards">Experiencia</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Trabajos</a>
+            <li class="nav-item active">
+                <a class="nav-link" href="#carousel">Trabajos</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Contacto</a>
-            </li>
-            <li class="nav-item dropdown d-md-none">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                Dropdown link
-              </a>
-              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
-              </div>
+            <li class="nav-item active">
+                <a class="nav-link" href="#contacto">Contacto</a>
             </li>
           </ul>
         </div>
-      </nav>
+    </nav>
 
-
-
-    <h1>HOLA</h1>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-12 col-md-6 verde">hola 1</div>
-            <div class="col-6 col-md-6 rojo"> hola 2</div>
+    <!--Header con imagen de fondo-->
+    
+    <header id="inicio" class="hero-section">
+        <h1>Carlos Salinas</h1>
+        <hr id="hr_margin">
+        <h2 class="subtitulo">Full Stack Wannabe</h2>
+    </header>   
+    
+    <section id="sobre-mi">
+        <div class="mb-5">
+            <h3>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam possimus voluptate, reiciendis perferendis earum beatae
+                <br>fugiat ea id explicabo expedita officia quidem soluta ipsa adipisci, aliquid delectus saepe obcaecati alias.
+            </h3>
         </div>
-    </div>
+
+        <div class="row">
+            <div class="col-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatum illum nostrum nisi,
+                <br>eaque alias voluptatibus eligendi suscipit, temporibus a quod praesentium optio commodi laboriosam!
+                <br>Voluptatem aperiam rem ratione reiciendis?
+            </div>
+            <div class="col-sm">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur voluptatum illum nostrum nisi,
+                <br>eaque alias voluptatibus eligendi suscipit, temporibus a quod praesentium optio commodi laboriosam!
+                <br>Voluptatem aperiam rem ratione reiciendis?
+            </div>
+        </div>
+    </section>
+
+    <!--Cards con mi experiencia-->
+
+    </section>
+    <hr id="hr_margin">
+    <section id="cards">
+        <h3 class="mt-5 mb-5">MI EXPERIENCIA</h3>
+        <div class="row">
+            <div class="col-sm">
+                <div class="card text-center">
+                    <i class="fab fa-galactic-republic fa-6x mt-4" class="card-img-top" alt="estrella"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">TRAYECTORIA</h5>
+                        <p class="card-text mb-3">
+                            Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris,
+                            <br>taciti scelerisque nulla ornare consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm">
+                <div class="card text-center">
+                    <i class="fas fa-adjust fa-6x mt-4" class="card-img-top" alt="ajustes"></i>
+                    <div class="card-body">
+                        <h5 class="card-title">ACTUALMENTE</h5>
+                        <p class="card-text mb-3">
+                            Congue fermentum dignissim rhoncus elementum ac nisi, proin phasellus lacinia sed faucibus mauris,
+                            <br>taciti scelerisque nulla ornare consequat.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!--Carrusel con Mi Portafolios-->
+
+    <section id="carousel" class="d-none d-sm-block d-sm-none d-md-block">
+        <h3>
+            Mi Portafolios
+        </h3>
+        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="assets/img/mobile1.jpg" class="d-block w-100" alt="aplicacion 1">
+                            <div class="carousel-caption">
+                                <h3>
+                                    hola mundo
+                                </h3>
+                            </div>
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/navigation1.jpg" class="d-block w-100" alt="aplicacion 2">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/webapp1.png" class="d-block w-100" alt="aplicacion 3">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/slider-4.png" class="d-block w-100" alt="aplicacion 4">
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-sm">
+                            <img src="assets/img/slider-5.png" class="d-block w-100" alt="aplicacion 5">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/slider-6.png" class="d-block w-100" alt="aplicacion 6">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/slider-7.png" class="d-block w-100" alt="aplicacion 7">
+                        </div>
+                        <div class="col-sm">
+                            <img src="assets/img/slider-8.png" class="d-block w-100" alt="aplicacion 8">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
+    <section id="contacto">
+        <p id="newsletter">Hablemos</p> 
+        <p id="newsletter_second"><strong id="newsletter_ricomida">Contacto</strong></p>
+        <a class="typeform-share button" id="contacto" href="https://carlossalinaslarenas.typeform.com/to/icxTlQ" data-mode="popup" style="display:inline-block;text-decoration:none;background-color:#E25A5C;color:white;cursor:pointer;font-family:Helvetica,Arial,sans-serif;font-size:20px;line-height:50px;text-align:center;margin:0;height:50px;padding:0px 33px;border-radius:10px;max-width:100%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;font-weight:bold;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;" target="_blank">Empieza! </a> <script> (function() { var qs,js,q,s,d=document, gi=d.getElementById, ce=d.createElement, gt=d.getElementsByTagName, id="typef_orm_share", b="https://embed.typeform.com/"; if(!gi.call(d,id)){ js=ce.call(d,"script"); js.id=id; js.src=b+"embed.js"; q=gt.call(d,"script")[0]; q.parentNode.insertBefore(js,q) } })() </script>
+    </section>
+
+    <footer id="contacto" class="oscuro">
+        <div class="row" id="icons">
+            <div class="col-sm-6">
+                <a href="https://www.github.com" target="_blank"><i class="fab fa-github-square fa-5x"></i></a>
+                <a href="https://www.twitter.com" target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+                <a href="https://www.linkedin.com" target="_blank"><i class="fab fa-linkedin fa-5x"></i></a>    
+            </div>
+            <div class="col-sm-6 mt-4">
+                <h4>Carlos Salinas</h4>
+            </div>
+        </div>
+      </footer>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
