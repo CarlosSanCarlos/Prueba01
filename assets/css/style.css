@@ -5,26 +5,26 @@
 
 html{
     scroll-behavior: smooth;
-  }
+}
   
-  body{
+body{
     font-family: 'Kanit', sans-serif;
-  }
+}
   
-  h1{
+h1{
     font-family: 'Righteous', cursive;
-  }
-  h2{
+}
+h2{
     font-family: 'Kanit', sans-serif;
-  }
+}
   
-  h3{
+h3{
     font-family: 'Righteous', cursive;
     font-size: x-large;
     text-align: center;
-  }
+}
   
-  .hero-section {
+.hero-section {
     text-align: center;
     background-image: url('../img/fondo.jpg');
     background-repeat: no-repeat;
@@ -32,64 +32,65 @@ html{
     color: #ffffff;
     text-shadow: 0.100em 0.15em 0.100em #707070;
     padding: 6.25rem 3.125rem;
-  }
+}
   
-  #sobre-mi{
+#sobre-mi{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 3%;
-  }
+}
   
-  #hr_margin{
+#hr_margin{
     margin-left: 40%;
     margin-right: 40%;
     margin-top: 3%;
     border-top: 3px solid;
-  }
+}
   
-  #cards{
+#cards{
     width: 50%;
     margin: 0 auto;
-  }
-  .card i{
+}
+
+.card i{
     color: indigo;
-  }
+}
   
-  #carousel{
+#carousel{
     margin-left: 15%;
     margin-right: 15%;
     margin-top: 5%;
-  }
+}
   
-  #contacto{
+#contacto{
     text-align: center;
     padding-left: 15%;
     padding-right: 15%;
     padding-top: center;
     padding-bottom: 5%;
-  }
+}
   
-  footer {
+footer {
     padding: 4.5rem;
     text-align: center;
-  }
+}
   
-  #icons{
+#icons{
     text-align: center;
     margin-top: 3rem;
-  }
+}
   
-  #nombre{
+#nombre{
     text-align: right;
     padding: center;
-  }
+}
   
-  .oscuro {
+.oscuro {
     background: #000f08;
     color: #ffffff;
     text-align: center;
-  }
+}
   
-  a{
+a{
     color: #ffffff;
-  }
+}
