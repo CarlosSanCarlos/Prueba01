@@ -13,6 +13,7 @@ body{
   
 h1{
     font-family: 'Righteous', cursive;
+    padding-top: 20%;
 }
 h2{
     font-family: 'Kanit', sans-serif;
@@ -29,6 +30,8 @@ h3{
     background-image: url('../img/fondo.jpg');
     background-repeat: no-repeat;
     background-size: cover;
+    height: 40rem;
+    width: 100%;
     color: #ffffff;
     text-shadow: 0.100em 0.15em 0.100em #707070;
     padding: 6.25rem 3.125rem;
@@ -93,4 +96,13 @@ footer {
   
 a{
     color: #ffffff;
+}
+
+@media (max-width: 600px) {
+    .hero-section{
+        background-position: center;
+    }
+    h1{
+        padding-top: 90%;
+    }
 }
